@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Feeds</title>
+  </head>
+  <body>
+    <h1>Here are all the users with their respective informations:</h1>
+    {% if abcd %}
+    <ol>
+      {% for individual in abcd %}
+      <b>User info</b>
+      <ul>
+        <li>First name: {{ individual.first_name }} </li>
+        <li>Last_name: {{ individual.last_name}} </li>
+        <li>Email: {{individual.email}} </li>
+      </ul>
+      {% endfor %}
+    </ol>
+    {% else %}
+    <p>No user feeds found</p>
+    {% endif %}
+
+  </body>
+</html>

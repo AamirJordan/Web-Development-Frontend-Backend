@@ -1,0 +1,200 @@
+body{
+  background: lightgrey;
+}
+
+
+
+#frh{
+text-align: center;
+color: white;
+background-color: #338EFF;
+padding: 10px;
+}
+
+.navigationbar{
+  padding-top: 50px;
+}
+
+.abc{
+  background: black;
+  text-align: right;
+}
+
+
+#a1{
+  padding: 30px;
+  color: white;
+}
+
+
+#a2{
+  padding: 30px;
+  color: white;
+}
+
+#a3{
+  padding: 30px;
+  color: white;
+}
+
+#a4{
+  padding: 30px;
+  color: white;
+}
+
+#a5{
+  padding: 30px;
+  color: white;
+}
+
+#a6{
+  padding: 30px;
+  color: white;
+}
+
+#services{
+  text-align: center;
+  margin-top: 300px;
+}
+
+.s{
+  text-align: center;
+  /* margin-right: 10px; */
+}
+
+#pp{
+  margin-right: 120px;
+  margin-left: 120px;
+}
+
+.jm{
+  text-align: center;
+}
+
+#im{
+  text-align: center;
+  border-radius: 20px;
+}
+
+#hea{
+  text-align: center;
+}
+
+.gallery{
+  background-color: white;
+}
+
+#gall{
+  text-align: center;
+}
+
+#g01{
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+
+#gall{
+  padding-bottom: 10px;
+}
+
+#g1{
+  margin-left: 25px;
+  margin-right: 25px;
+    border-radius: 20px;
+}
+
+#g2{
+  margin-left: 25px;
+  margin-right: 25px;
+    border-radius: 20px;
+}
+
+#g3{
+  margin-left: 25px;
+  margin-right: 25px;
+    border-radius: 20px;
+}
+
+.about{
+  background: white;
+  text-align: center;
+  color: black;
+}
+
+.contact{
+  text-align: center;
+}
+
+#i1{
+  margin-left: 500px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+
+}
+
+#i2{
+  margin-top: 100px;
+  margin-left: 500px;
+
+}
+
+#i3{
+  margin-top: 110px;
+  margin-left: 500px;
+  margin-bottom: 100px;
+}
+
+
+#i4{
+  margin-top:  120px;
+  margin-left: 500px;
+  /* margin-bottom: 200px; */
+}
+
+.a1{
+  margin-left: 150px;
+  padding-bottom: 30px;
+}
+
+.a2{
+  margin-left: 150px;
+  padding-bottom: 30px;
+}
+
+.a3{
+  margin-left: 150px;
+  padding-bottom: 30px;
+}
+
+.a4{
+  margin-left: 150px;
+  padding-bottom: 30px;
+}
+
+#ab1{
+  margin-left: 10px;
+  margin-right: 700px;
+  margin-top: 50px;
+  margin-bottom: 5px;
+}
+
+#ab2{
+  margin-left: 10px;
+  margin-right: 700px;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+#ab3{
+  margin-left: 700px;
+  padding-bottom: 50px;
+}
+
+#submit{
+  background: maroon;
+  color: white;
+  padding: 10px;
+  margin-left: 600px;
+  margin-top: 50px;
+  border-radius: 15px;
+}

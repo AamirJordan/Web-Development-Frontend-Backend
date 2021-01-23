@@ -1,0 +1,49 @@
+
+body{
+  background: #8eb4f2;
+}
+
+h1{
+  border: 1px solid black;
+}
+
+div{
+  background: #e4e86f;
+}
+
+h2{
+  color: purple;
+}
+
+input{
+  border: 2px solid rgb(255, 5, 5);
+}
+
+#textblock{
+  border: 5px solid gray;
+  width: 800px;
+  height: 400px
+}
+
+a{
+  color: red;
+}
+
+#itemone{
+  color: purple;
+  text-decoration: overline;
+}
+
+.exit{
+  background: blue;
+  border: 4px dashed yellow;
+}
+
+.Qnc{
+  color: black;
+  background: #e4e86f;
+}
+
+a:visited{
+  color: blue;
+}

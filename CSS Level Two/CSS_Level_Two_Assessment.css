@@ -1,0 +1,36 @@
+
+h1{
+  font-family: 'Pacifico', cursive;
+  text-align: center;
+}
+
+.art{
+  margin: auto;
+}
+
+td{
+  width: 200px;
+  height: 400px;
+  border: 6px solid white;
+}
+
+#one{
+  background: #181815;
+
+}
+
+#two{
+  background: #626251;
+}
+
+#three{
+  background: #221F17;
+}
+
+#four{
+  background: #EDEDEC;
+}
+
+#five{
+  background: #65270E;
+}

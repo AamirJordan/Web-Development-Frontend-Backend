@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Roadies</title>
+  </head>
+  <body>
+    <h1>All selected roadies:</h1>
+
+    {% if prince %}
+
+    <ol>
+      {% for p in prince %}
+      <li>Roadies names are:</li>
+      <ul>
+        <li>First Name: {{ p.first_name }}</li>
+        <li>Last Name: {{ p.last_name}}</li>
+      </ul>
+      {% endfor %}
+    </ol>
+
+    {%else %}
+    <p>No Roadies are selected this year</p>
+
+    {% endif %}
+
+  </body>
+</html>

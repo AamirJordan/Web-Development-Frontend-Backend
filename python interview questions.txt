@@ -1,0 +1,62 @@
+
+Four principles of OOP are encapsulation,data abstraction, data hiding, polymorphism and inheritance.
+
+
+
+Encapsulation: In technical terms, it means wrapping up of data and code in to a single unit(i.e Class) and also protecting the data from outside world.
+
+There is also another term related with encapsulation is data hiding. Data hiding means hiding the data from world. Data can not be accessed directly.
+
+
+
+Data Abstraction: Abstraction means hiding unessential details from user. And providing only essential information.
+
+
+
+Inheritance: Inheriting the properties of super class in subclass. Basically subclass is more specialized one and it provides re usability.
+
+In layman terms: For eg Mobile phone which we use everyday. Everything is wrapped inside the body of the phone. No one can access the functionality of mobile directly. To access the stuff you need object(here object is mobile)
+
+you can’t make a call without having mobile. Now what is data hiding?
+
+
+Polymorphism is an ability (in OOP) to use common interface for multiple form (data types).
+
+Suppose, we need to color a shape, there are multiple shape option (rectangle, square, circle). However we could use same method to color any shape. This concept is called Polymorphism.
+
+
+
+Data hiding means giving access to mobile in control manner.
+
+
+
+In technical terms: we use getter and setter methods. But in our mobile: Password and pattern lock are the ways of providing data hiding. One who knows the password, only can access your phone(This is called data hiding)
+
+
+Data hiding basically provides you security. Your phone is locked. Even if you are not having your phone nearby . you know that it is protected.
+
+
+
+Data Abstraction: suppose you wanna make a call to your mom. What you need?
+
+Just valid number!
+
+To make a call, you never need to know the background details how calling is being done. (Like connecting to network whichever your mom is using either airtel or idea etc)
+
+So What data abstraction gives? it provides easiness to us.
+
+Inheritance: Suppose you are using android phone version suppose lollypop. So basically lollypop version has inherited all functionality of previous versions i.e kitkat
+
+with some new functionalities.
+
+So, Lollypop version basically is specialized version of Kitkat.
+
+There is another principle also: Polymorphism
+
+It means having same name but different functionality. In technical terms, function overloading, function overriding etc
+
+Now let see how polymorphism is implemented in your mobile.
+
+Every mobile has inbuilt camera. But still there are another apps which let us take photos like Retrica.
+
+Retrica which has different functionality but does the same work(clicking photos).

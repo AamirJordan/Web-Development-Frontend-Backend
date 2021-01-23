@@ -1,0 +1,155 @@
+
+------------------------------------------------------------	PHP :	---------------------------------------------------------------------------------------------------------------------
+Create a localhost server ----			php -S localhost:4000
+
+
+
+
+Installing PHP in any computer		-----	1. Download the php zip file
+						2. Extract the zip file by creating a php folder under C drive	--- C:/php
+						3. Go to edit environmental variables
+						4. Thenagain click environmental variables and doubleclick on path
+						5. Add new path i.e ---	C:/php
+				
+				***** enjoy PHP *****					
+
+
+
+
+
+------------------------------------------------------------	SQL:	--------------------------------------------------------------------------------------------------------------------
+
+Installing MySQL in any computer	 ----	1. Install SQL from sql "https://dev.mysql.com/downloads/windows/installer/8.0.html"
+						2. After installation select Custom Install.
+						3. Select MySqlServer and install the latest server.
+						4. Similarly click on Applications and go to MySQL Shell and install the latest MySQL shell.
+						5. Press next and then execute.
+
+
+
+MySQL password is "password"
+
+		******** Install popsql as well. ********
+
+Create a database			----	create database name;
+
+
+------------------------------------------------------------	Angular 8   -----------------------------------------------------------------------------------------------------------
+
+
+				***********			ALL ANGULAR PROGRAMS ARE DONE ON NODEJS COMMAND PROMT			*************
+
+
+
+Installing angular on your PC	----	1. Open node.js command prompt.
+					2. Install "npm install -g @angular/cli" under C:/Users/Admin.
+					3. To create a project type "ng new name".
+
+Run a program			----	1. Open the directory I mean the app name for example "C:/Users/Admin/Atom/Angular8/first_app"
+					2. Then in the app directory i.e "C:/Users/Admin/Atom/Angular8/first_app" type "ng -open serve" which will run the server.
+
+
+Create a SubServer		----	in the app directory i.e "C:/Users/Admin/Atom/Angular8/first_app" type "ng generate component SubServer" which will create the SubServer.
+
+
+
+Installing bootstrap on a project	----	Within the directory i.e "C:/Users/Admin/Atom/Angular8/first_app" type "npm install --save bootstrap@3"
+
+
+
+
+
+------------------------------------------------------------	HTML:	--------------------------------------------------------------------------------------------------------------------
+
+ctrl + / = comment
+ctrl + \ = open/close colomn
+
+
+
+
+
+
+
+
+-----------------------------------------------------------	CSS:	---------------------------------------------------------------------------------------------------------------------
+
+h3 + ul{}
+li a{}
+li a[href="www.abc.com"]{}
+
+
+
+
+
+
+----------------------------------------------------------	Bootstrap:	-------------------------------------------------------------------------------------------------------------
+
+<div class="form-group"> </div> ----------------------- Provides spacing between the form elements
+
+
+<input class="form-control"> -------------------------- Provides subtle look to the input field and blur effect
+
+
+<small id="" class="form-text text-muted" --------------------- Provides a small piece of text underneath anything.
+
+
+
+
+
+
+----------------------------------------------------------	Javascript:	-------------------------------------------------------------------------------------------------------------
+
+Array.forEach(FunctionParameter) -------------------------- Prints in different lines
+
+
+
+
+
+
+
+---------------------------------------------------------	Python:     -----------------------------------------------------------------------------------------------------------------
+
+Lists = [] -------------------------------------------Mutable (Can be changed)
+Dictionary = {} --------------------------------------Mutable
+Tuples = () -----------------------------------------Immutable (Cannot be changed)
+
+
+There's no '===' sign in python as by '==' sign it checks the datatype when compared.
+
+
+
+
+
+
+---------------------------------------------------------	Django:	      ---------------------------------------------------------------------------------------------------------------
+
+
+Creating a environment ----		conda create --name (EnvName) django/python	---------------------------------------------------	Use Anaconda prompt
+Checking existing environment ----	conda info --envs
+
+
+
+Creating a project ----			django-admin startproject projectname
+Runserver on a project ----		C:\Users\CG-DTE\Atom\Django\projectname>python manage.py runserver
+App development inside of a project ----C:\Users\CG-DTE\Atom\Django\projectname>python manage.py startapp appname
+
+
+							Faking Database:-
+Install Faker ----			C:\Users\CG-DTE\Atom\Django\projectname>pip install Faker
+
+
+							For Users and Passwords:-
+Install bcrypt ----			C:\Users\CG-DTE\Atom\Django\projectname>pip install bcrypt
+Install django[argon2] -----		C:\Users\CG-DTE\Atom\Django\projectname>pip install django[argon2]
+
+Install image library ----		C:\Users\CG-DTE\Atom\Django\projectname>pip install pillow
+
+
+Install django debug toolbar		C:\Users\CG-DTE\Atom\Django\projectname>pip install django-debug-toolbar
+
+
+--------------------------------------------------------	GitHub:		-------------------------------------------------------------------------------------------------------------
+
+Setup git:::::::::Download git
+Site Login -----			www.github.com>	emailid:aamir0105@gmail.com	password:jordan1aamir
+Check git version ----			git --version

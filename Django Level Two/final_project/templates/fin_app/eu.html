@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>EndUser Data</title>
+  </head>
+  <body>
+    <h1>All users list:</h1>
+
+    {% if roadies %}
+
+      <ol>
+        {% for encodethis in roadies %}
+        <li>User Data:</li>
+        <ul>
+          <li>First Name: {{ encodethis.first_name }}</li>
+          <li>Last Name: {{ encodethis.last_name }}</li>
+          <li>Email: {{encodethis.email }}</li>
+        </ul>
+        {% endfor %}
+      </ol>
+
+    {% endif %}
+
+  </body>
+</html>
